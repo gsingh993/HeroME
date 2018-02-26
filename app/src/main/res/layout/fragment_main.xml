@@ -16,8 +16,8 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:minHeight="?attr/actionBarSize"
-            android:background="#253748">
+            android:background="#253748"
+            android:minHeight="?attr/actionBarSize">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -30,6 +30,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/heroes" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Came By Accident" />
+
     </LinearLayout>
 
 </FrameLayout>
