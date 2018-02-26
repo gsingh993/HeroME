@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/hero_bg_gradient"
         android:orientation="vertical">
 
 
@@ -27,15 +28,64 @@
 
         <ImageView
             android:id="@+id/imageView"
+            android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/heroes" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="Came By Accident" />
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/herobtn"
+            android:drawableLeft="@drawable/lightning"
+            android:drawableRight="@drawable/item_selected"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Came By Accident"
+            android:textColor="#FAC740" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/herobtn"
+            android:drawableLeft="@drawable/atomic"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Genetic Mutation"
+            android:textColor="#FAC740" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/herobtn"
+            android:drawableLeft="@drawable/rocket"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Born With Them"
+            android:textColor="#FAC740" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/hero_solid_button"
+            android:backgroundTint="#FAC740"
+            android:paddingLeft="5dp"
+            android:paddingRight="10dp"
+            android:text="Choose Powers "
+            android:textColor="#10161D"
+            android:textSize="22sp" />
 
     </LinearLayout>
 
