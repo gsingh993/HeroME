@@ -85,7 +85,7 @@ public class PickPowerFragment extends Fragment implements View.OnClickListener{
         webBtn = (Button) view.findViewById(R.id.webBtn);
         laserBtn = (Button) view.findViewById(R.id.laserBtn);
         strengthBtn = (Button) view.findViewById(R.id.strengthBtn1);
-        pickPowerBtn = (Button) view.findViewById(R.id.chooseBtn);
+        pickPowerBtn = (Button) view.findViewById(R.id.showBackstoryBtn);
 
         turtleBtn.setOnClickListener(this);
         lightningBtn.setOnClickListener(this);

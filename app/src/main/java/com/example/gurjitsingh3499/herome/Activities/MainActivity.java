@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements MainFragment.Main
 
     public void loadPowerScreen(){
         PowerFragment powerFragment = new PowerFragment();
-        getFragmentManager().beginTransaction().replace(R.id.fragment_container, powerFragment).addToBackStack(null).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, powerFragment).addToBackStack(null).commit();
     }
     @Override
     public void onMainFragmentInteraction(Uri uri) {
