@@ -34,21 +34,20 @@
             android:src="@drawable/heroes" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/accidentBtn"
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:layout_gravity="center_vertical|center_horizontal"
             android:layout_marginTop="15dp"
             android:background="@drawable/herobtn"
             android:drawableLeft="@drawable/lightning"
-            android:drawableRight="@drawable/item_selected"
             android:paddingLeft="5dp"
             android:paddingRight="10dp"
             android:text="Came By Accident"
             android:textColor="#FAC740" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/geneticBtn"
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:layout_gravity="center_vertical|center_horizontal"
@@ -61,7 +60,7 @@
             android:textColor="#FAC740" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/bornBtn"
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:layout_gravity="center_vertical|center_horizontal"
@@ -74,7 +73,7 @@
             android:textColor="#FAC740" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/chooseBtn"
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:layout_gravity="center_vertical|center_horizontal"
