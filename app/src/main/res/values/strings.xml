@@ -3,4 +3,28 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="turtlePower">
+        <item>Ninja Turtles</item>
+        <item>You are tactical, courageous leader and devoted student of his sensei, Leonardo wears a blue mask and wields two katana. As the most conscientious of the four, he often bears the burden of responsibility for his brothers, which commonly leads to conflict with Raphael. Leonardo was named after the Italian polymath, painter, engineer, inventor, writer, anatomist, and sculptor, Leonardo da Vinci.</item>
+    </string-array>
+    <string-array name="lightning">
+        <item>Thor</item>
+        <item>Thor is a 2011 American superhero film based on the Marvel Comics character of the same name, produced by Marvel Studios and distributed by Paramount Pictures. It is the fourth film in the Marvel Cinematic Universe (MCU).</item>
+    </string-array>
+    <string-array name="flight">
+        <item>Superman</item>
+        <item>Superman is a superhero published by DC Comics since 1938. An alien named Kal-El from the destroyed planet Krypton. he was sent to Earth and raised as Clark Kent by human foster parents, Martha and Jonathan </item>
+    </string-array>
+    <string-array name="webslinging">
+        <item>Spider-Man</item>
+        <item>Bitten by a radioactive spider, high school student Peter Parker gained the speed, strength and powers of a spider. Adopting the name Spider-Man, Peter hoped to start a career using his new ... more. ... Amazing Spider-Man (1999</item>
+    </string-array>
+    <string-array name="laservision">
+        <item>Cyclops</item>
+        <item>Cyclops (Scott Summers) is a fictional superhero appearing in American comic books published by Marvel Comics and is a founding member of the X-Men. Created by writer Stan Lee and artist Jack Kirby,</item>
+    </string-array>
+    <string-array name="superstrength">
+        <item>Hulk</item>
+        <item>Hulk is a 2003 American science fiction superhero film based on the fictional Marvel Comics character of the same name. Ang Lee directed the film, which stars Eric Bana as Dr. Bruce Banner, as well as Jennifer Connelly, Sam Elliott, Josh Lucas, and Nick Nolte.</item>
+    </string-array>
 </resources>
