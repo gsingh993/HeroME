@@ -5,26 +5,82 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string-array name="turtlePower">
         <item>Ninja Turtles</item>
-        <item>You are tactical, courageous leader and devoted student of his sensei, Leonardo wears a blue mask and wields two katana. As the most conscientious of the four, he often bears the burden of responsibility for his brothers, which commonly leads to conflict with Raphael. Leonardo was named after the Italian polymath, painter, engineer, inventor, writer, anatomist, and sculptor, Leonardo da Vinci.</item>
+        <item>Leonardo and his brothers were once ordinary turtles: when they were infants,
+            they were adopted from a pet store by Hamato Yoshi. When their soon to be
+            father walked passed a strange man, a Kraangdroid, he felt something odd about
+            him and followed. Unfortunately, Yoshi gave away his position when he accidentally
+            stepped on a brown rat's tail. The Kraang found him and attempted to kill him,
+            but Yoshi fought back hard. In the end, the Kraang dropped the canister of
+            Mutagen they were holding, causing the turtles and Yoshi to mutate. Yoshi,
+            having to have stepped on that rat, thus mutated into a humanoid brown rat by
+            the name of "Splinter", while Leo and his brothers, after coming in contact
+            with Splinter when he was human, mutated into humanoid turtles. .</item>
     </string-array>
     <string-array name="lightning">
         <item>Thor</item>
-        <item>Thor is a 2011 American superhero film based on the Marvel Comics character of the same name, produced by Marvel Studios and distributed by Paramount Pictures. It is the fourth film in the Marvel Cinematic Universe (MCU).</item>
+        <item>Thor Odinson is the current king of Asgard, a founding member of the Avengers,
+            and the God of Thunder. When all his irresponsible behavior restarted a
+            conflict between Asgard and Jotunheim which had threatened his homeland,
+            Thor was then denied the right to become King and was then stripped of his
+            power and banished by his father Odin onto the Earth. While exiled on Earth,
+            Thor learned humility, found love in Jane Foster, and helped to save all his
+            new friends from a destructive threat sent by his own jealous adoptive
+            brother Loki, sacrificing his own life to save all of the innocents in
+            the process. Due to his selfless act of sacrifice, Thor redeemed himself
+            in his father's eyes and was granted his power once more which he then
+            used to defeat Loki's schemes of genocide.</item>
     </string-array>
     <string-array name="flight">
         <item>Superman</item>
-        <item>Superman is a superhero published by DC Comics since 1938. An alien named Kal-El from the destroyed planet Krypton. he was sent to Earth and raised as Clark Kent by human foster parents, Martha and Jonathan </item>
+        <item> Sent as a baby to Earth from the dying planet Krypton, Kal-El was
+            adopted by Martha and Jonathan Kent of Smallville, Kansas. Growing up as
+            Clark Kent, he devoted his life to helping others with the abilities he
+            developed from Earth's sun. Moving to Metropolis, he became Superman,
+            while still maintaining his secret identity as Clark Kent, who works at
+            the Daily Planet newspaper.Superman possesses the ability to fly under his own power,
+            incredible strength and near invulnerability, as he can only be harmed by the
+            element Kryptonite. His eyes can emit bursts of heat, while vision ranges from
+            the microscopic to the telescopic. His vision is also capable of a broader
+            spectrum than human eyes, able to see x-rays and radio waves. He can hear faint
+            sounds amongst a bustle of noises by concentrating. His lungs are capable
+            of holding air for long periods of time in environments without oxygen, and
+            the ability to compress this air and exhale it in a freezing capacity.</item>
     </string-array>
     <string-array name="webslinging">
         <item>Spider-Man</item>
-        <item>Bitten by a radioactive spider, high school student Peter Parker gained the speed, strength and powers of a spider. Adopting the name Spider-Man, Peter hoped to start a career using his new ... more. ... Amazing Spider-Man (1999</item>
+        <item>Bitten by a radioactive spider, high school student Peter Parker gained the speed,
+            strength and powers of a spider. Adopting the name Spider-Man,
+            Peter hoped to start a career using his new ... more. ... Amazing Spider-Man
+            Peter Benjamin Parker is a high school student and a superhero with spider-like abilities,
+            fighting crime as his alter ego Spider-Man. After receiving his abilities from
+            a spider's bite, Parker chose to protect Queens from crime with his powers,
+            juggling all of his superhero duties and the demands of his high school life.
+            Despite his best efforts to keep his identity secret from the world, he was found
+            and recruited by Tony Stark in the Avengers Civil War, while gaining a new suit
+            and technology in exchange for his help.</item>
     </string-array>
     <string-array name="laservision">
         <item>Cyclops</item>
-        <item>Cyclops (Scott Summers) is a fictional superhero appearing in American comic books published by Marvel Comics and is a founding member of the X-Men. Created by writer Stan Lee and artist Jack Kirby,</item>
+        <item>As a teen, Scott came under the foster care of Jack Winters, a mutant criminal
+            also known as Jack O' Diamonds. During this time, Scott began to suffer from
+            severe headaches and was sent to a specialist who discovered lenses made of
+            ruby quartz could correct the problem.Soon after, Scott's powerful optic beams
+            erupted from his eyes, demolishing a crane in the process and causing the crane
+            to drop its payload toward a crowd of people. Luckily, Scott managed to save
+            them by obliterating the object with another blast. However, the people believed
+            that Scott was trying to kill them and rallied up an angry mob.
+            Scott managed to flee by boarding a freight train.</item>
     </string-array>
     <string-array name="superstrength">
         <item>Hulk</item>
-        <item>Hulk is a 2003 American science fiction superhero film based on the fictional Marvel Comics character of the same name. Ang Lee directed the film, which stars Eric Bana as Dr. Bruce Banner, as well as Jennifer Connelly, Sam Elliott, Josh Lucas, and Nick Nolte.</item>
+        <item>Robert Bruce Banner, M.D., Ph.D is a renowned scientist who was highly
+            respected for all his work in the fields of Biochemistry, Nuclear Physics,
+            and Gamma Radiation. Having been tasked by General Thaddeus Ross to find
+            a way to recreate the Super Soldier Serum which had originated Captain
+            America, Banner conducted an experiment with Gamma Radiation. However
+            when an exposure to high levels of Gamma Radiation instead of Vita Radiation
+            went awry, the mild-mannered scientist had found that when angered or
+            provoked, he would then transform into the huge rage-fueled and nearly
+            mindless green-skinned monster known as Hulk.</item>
     </string-array>
 </resources>
