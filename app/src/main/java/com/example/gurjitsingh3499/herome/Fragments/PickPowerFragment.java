@@ -22,6 +22,7 @@ import com.example.gurjitsingh3499.herome.R;
  */
 public class PickPowerFragment extends Fragment implements View.OnClickListener{
     // TODO: Rename parameter arguments, choose names that match
+    private static final String TAG = "PickPowerFragment";
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
@@ -94,11 +95,13 @@ public class PickPowerFragment extends Fragment implements View.OnClickListener{
         laserBtn.setOnClickListener(this);
         strengthBtn.setOnClickListener(this);
 
+
+
         pickPowerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 MainActivity mainActivity = (MainActivity)getActivity();
-                mainActivity.loadPowerScreen();
+                mainActivity.loadPowerScreen(mParam1, mParam2);
             }
         });
 
@@ -120,21 +123,35 @@ public class PickPowerFragment extends Fragment implements View.OnClickListener{
         laserBtn.setCompoundDrawablesWithIntrinsicBounds(R.drawable.laser_vision,0,0,0);
         strengthBtn.setCompoundDrawablesWithIntrinsicBounds(R.drawable.super_man_crest,0,0,0);
 
+
+
         Button button = (Button)view;
         int leftDrawable = 0;
 
         if(button == turtleBtn){
             leftDrawable = R.drawable.turtle_power;
+            mParam1 = getResources().getStringArray(R.array.turtlePower)[0];
+            mParam2 = getResources().getStringArray(R.array.turtlePower)[1];
         }else if(button == lightningBtn){
             leftDrawable = R.drawable.lightning;
+            mParam1 = getResources().getStringArray(R.array.lightning)[0];
+            mParam2 = getResources().getStringArray(R.array.lightning)[1];
         }else if(button == flightBtn){
             leftDrawable = R.drawable.super_man_crest;
+            mParam1 = getResources().getStringArray(R.array.flight)[0];
+            mParam2 = getResources().getStringArray(R.array.flight)[1];
         }else if(button == webBtn){
             leftDrawable = R.drawable.spider_web;
+            mParam1 = getResources().getStringArray(R.array.webslinging)[0];
+            mParam2 = getResources().getStringArray(R.array.webslinging)[1];
         }else if(button == laserBtn){
             leftDrawable = R.drawable.laser_vision;
+            mParam1 = getResources().getStringArray(R.array.laservision)[0];
+            mParam2 = getResources().getStringArray(R.array.laservision)[1];
         }else if(button == strengthBtn){
             leftDrawable = R.drawable.super_strength;
+            mParam1 = getResources().getStringArray(R.array.superstrength)[0];
+            mParam2 = getResources().getStringArray(R.array.superstrength)[1];
         }
         button.setCompoundDrawablesWithIntrinsicBounds(leftDrawable,0,R.drawable.item_selected,0);
     }
