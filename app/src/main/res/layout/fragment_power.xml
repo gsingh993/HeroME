@@ -1,4 +1,5 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -33,6 +34,13 @@
             android:textColor="#FAC740"
             android:textSize="24sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/characterView"
+            android:layout_width="match_parent"
+            android:layout_height="212dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/hulk" />
 
         <TextView
             android:id="@+id/originTV"
